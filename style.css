@@ -59,7 +59,6 @@ border: 0;
   color: #FFF;
 font-feature-settings: 'clig' off, 'liga' off;
 font-size: 14px;
-font-style: normal;
 font-weight: 300;
 line-height: 22px; 
 margin: 0;
@@ -95,7 +94,7 @@ margin: 0;
   width: 288px;
 height: 243px;
 margin-right: 138px;
-margin-bottom: 100px;
+margin-bottom: 80px;
 }
 .main-slider{
  display: flex;
@@ -126,6 +125,10 @@ margin-bottom: 80px;
 
 /* card releted style */
 
+.card-containar{
+  margin-bottom: 100px;
+}
+
 .card-containar h1{
   color: #0A0826;
 text-align: center;
@@ -145,6 +148,9 @@ width: 337px;
 flex-direction: column;
 align-items: flex-start;
 gap: 40px;
+border: 1px solid black;
+padding: 20px;
+box-shadow: 5px 7px 7px  rgb(189, 189, 197); 
   
 }
 .card-items h2{
@@ -189,3 +195,82 @@ font-size: 18px;
 font-weight: 500;
 
 }
+
+/* client releted style */
+
+.centar-primary{
+  color: #0A0826;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+margin-bottom: 55px;
+  
+}
+.centar-primary span{
+  color: #E76F51;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.client-containar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 150px;
+}
+
+.client-item{
+  border: 1px dotted black;
+  padding: 20px;
+  box-shadow: 2px 2px 2px gainsboro, -2px -2px 2px gainsboro;
+}
+
+
+
+
+
+.client-item img{
+width: 149px;
+height: 149px;
+}
+.client-item p{
+  width: 200px;
+  color: #6C6C6C;
+  text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.2px;
+
+}
+.client-item h6{
+  color: #23A6F0;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-align: center;
+
+}
+.client-item h5{
+  color:  #252B42;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 0.2px;
+text-align: center;
+}
+.checked{
+  color: orange;
+}
+
