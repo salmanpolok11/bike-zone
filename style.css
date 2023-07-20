@@ -1,8 +1,51 @@
-/* 
+
 body{
-  width: 100%;
-height: 4078px;
-} */
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+} 
+
+/* shered style */
+.btn-primary:hover{
+  transform: scale(1.3);
+  transition: 1.8s;
+  border: 2px solid white;
+  color: aqua;
+  cursor: pointer;
+}
+.card-btnn:hover{
+  transform: scale(1.3);
+  transition: 1.8s;
+  border: 2px solid white;
+  color: aqua;
+  cursor: pointer;
+}
+.card-btn:hover{
+  transform: scale(1.3);
+  transition: 1.8s;
+  border: 2px solid blue;
+  color: black;
+  cursor: pointer;
+}
+
+a:hover{ 
+  
+  transform: scale(1.2);
+  transition: 1.9s;
+  border: 1px solid red;
+  background-color: red;;
+  padding: 9px 20px;
+}
+
+.nav-section img:hover{
+  transform: rotate(360deg);
+  transition: 2s;
+}
+
+
+
 
 .header-section{
   width:100%;
@@ -46,7 +89,11 @@ padding: 10px;
 border-radius: 5px;
 background: #E76F51;
 border: 0;
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
 }
+
 
 .bannar-section{
   display: flex;
@@ -274,3 +321,98 @@ text-align: center;
   color: orange;
 }
 
+
+/* cd bannnar section */
+
+
+
+
+.cd-containar img{
+  width: 100%;
+}
+.cd-containar{
+ display: flex;
+ justify-content: center;
+ gap: 140px;
+
+}
+
+.cd-title .title-des h1{
+  color: #383838;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
+
+.cd-title .title-des p{
+  color: #383838;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+.cd-h1{
+  border: 1px dotted black;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.cd-title{
+  width: 500px;
+height: 100%;
+color: #7E848C;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-top: 80px ;
+
+}
+
+/* footer releted style */
+
+.footer-section{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--default-black, #0B0D17);
+  margin-top: 100px ;
+}
+
+ 
+.footer-img img{
+  width: 135px;
+height: 40px;
+
+}
+.footer-img h6{
+  color: #D9DBE1;
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px; 
+}
+
+.footer-title h6{
+  display: inline;
+  margin-right: 24px;
+
+ color: #FFF; 
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+
+}
+
+ 
